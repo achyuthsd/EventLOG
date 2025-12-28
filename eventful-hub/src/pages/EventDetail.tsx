@@ -21,7 +21,7 @@ import Footer from "@/components/Footer";
 import { Event } from "@/data/events";
 import { useToast } from "@/hooks/use-toast";
 
-const API_URL = "http://localhost:5000/api/events"; // adjust if needed
+const API_URL = "https://eventlog-temv.onrender.com/api/events"; // adjust if needed
 
 const EventDetail = () => {
   const { id } = useParams<{ id: string }>();
