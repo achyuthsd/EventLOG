@@ -32,7 +32,7 @@ const Dashboard = () => {
   const [userEvents, setUserEvents] = useState<Event[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const API_URL = "http://localhost:5000/api/events"; // backend endpoint
+  const API_URL = "https://eventlog-temv.onrender.com/api/events"; // backend endpoint
 
   // 🔹 Fetch user events from backend
   const loadEvents = async () => {
