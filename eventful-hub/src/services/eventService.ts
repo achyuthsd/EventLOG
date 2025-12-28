@@ -1,6 +1,6 @@
 import { Event } from "../data/events";
 
-const API_URL = "http://localhost:5000/api/events"; // change port if needed
+const API_URL = "https://eventlog-temv.onrender.com/api/events"; // change port if needed
 
 interface BackendEvent {
   _id: string;
