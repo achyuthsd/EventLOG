@@ -47,7 +47,7 @@ const EventCard = ({ event, index = 0 }: EventCardProps) => {
             {/* Price Badge */}
             <div className="absolute top-3 right-3">
               <Badge variant={event.ticketType === "free" ? "secondary" : "default"} className="font-semibold">
-                {event.ticketType === "free" ? "Free" : `$${event.price}`}
+                {event.ticketType === "free" ? "Free" : `₹${event.price}`}
               </Badge>
             </div>
           </div>
