@@ -210,7 +210,7 @@ const Dashboard = () => {
                                 >
                                   {event.ticketType === "free"
                                     ? "Free"
-                                    : `$${event.price}`}
+                                    : `₹${event.price}`}
                                 </Badge>
                               </div>
                               <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
