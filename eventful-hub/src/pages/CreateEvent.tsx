@@ -31,7 +31,7 @@ import Footer from "@/components/Footer";
 import { categories } from "@/data/events";
 import { useToast } from "@/hooks/use-toast";
 
-const API_URL = "http://localhost:5000/api/events"; // 🔴 change if needed
+const API_URL = "https://eventlog-temv.onrender.com/api/events"; // 🔴 change if needed
 
 const CreateEvent = () => {
   const navigate = useNavigate();
